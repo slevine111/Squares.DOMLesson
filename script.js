@@ -24,7 +24,6 @@ colors.forEach(color => {
   newButton.textContent = `Toggle ${color
     .slice(0, 1)
     .toUpperCase()}${color.slice(1)}`
-  //newButton.classList.add('button')
   document.body.insertBefore(newButton, document.querySelector('script'))
 
   newButton.addEventListener('click', () => {
@@ -39,10 +38,6 @@ colors.forEach(color => {
     //.classList.toggle('hide-square')
   })
 })
-
-const firstColorBox = document.querySelector(`#${colors[0]}`)
-
-squareContainer.style.height = `${firstColorBox.offsetWidth}px`
 
 let allCreatedSquares = document.querySelectorAll('.square')
 
