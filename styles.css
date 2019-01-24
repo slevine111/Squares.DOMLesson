@@ -1,0 +1,27 @@
+.square {
+  width: 8%;
+  border: 2px solid black;
+  display: inline-block;
+  padding-top: 8%;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+#square-container,
+h2 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin-top: 50px;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 1% 0;
+}
+
+.hide-square {
+  border: none;
+}
